@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ttt/static/css/main.fea64801.css",
+    "main.js": "/ttt/static/js/main.253436b8.js",
+    "static/media/TIE.webp": "/ttt/static/media/TIE.1039b243ed42d85bb0fe.webp",
+    "static/media/Crosshair.webp": "/ttt/static/media/Crosshair.7cf1185b9e10d56c8ecf.webp",
+    "static/media/Kuill.webp": "/ttt/static/media/Kuill.7dbbcce89ec26bb6aa0a.webp",
+    "static/media/Star Wars.ttf": "/ttt/static/media/Star Wars.4a33c35ee269d757fc6a.ttf",
+    "index.html": "/ttt/index.html",
+    "main.fea64801.css.map": "/ttt/static/css/main.fea64801.css.map",
+    "main.253436b8.js.map": "/ttt/static/js/main.253436b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fea64801.css",
+    "static/js/main.253436b8.js"
+  ]
+}
