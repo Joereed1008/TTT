@@ -1,0 +1,198 @@
+@font-face {
+  font-family: "sw";
+  src: url("Star\ Wars.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  align-self: center;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+.square {
+  background: #2f2f2f;
+  border: 2px solid #ffe81f;
+  float: left;
+  font-size: 8;
+  font-weight: bold;
+  line-height: 4.4vh;
+  height: 4.4vh;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 4.4vh;
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes init {
+  0% {
+    opacity: 0;
+  }
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
+}
+
+.game-info {
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.game-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wholeBoard {
+  margin-top: auto;
+  align-self: center;
+  height: auto;
+}
+
+.charContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 33.333%;
+}
+
+.kuill {
+  height: 60%;
+  display: flex;
+  align-self: center;
+}
+
+.crosshair {
+  height: 90%;
+  display: flex;
+  align-self: center;
+}
+
+.title {
+  font-family: "sw";
+  font-size: xx-large;
+  padding-bottom: 13vh;
+}
+
+.TIE {
+  position: absolute;
+  z-index: -1;
+  height: 77vh;
+  animation: spin 2s ease-out 1s 1 normal both,
+    fly 8s ease-in-out 0s infinite alternate-reverse both;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fly {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(10deg);
+  }
+}
+
+.spaceshipContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
